@@ -1,0 +1,111 @@
+main{
+    box-shadow: 0px 50px 110px 0px #7e7e7e;
+    position: relative;
+}
+
+main.box{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    max-width: 368px;
+    height: 368px;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.imagem{
+    max-height: 168px;
+    max-width: 368px;
+}
+
+.imagem img{
+    margin: 16px 16px 16px 16px;
+    border-radius: 9px;
+    height: 152px;
+    width: 338px;
+    object-fit: cover;
+}
+
+section.textos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 368px;
+    height: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.textos .categoria h2{
+    background-color: rgba(200, 229, 165, 0.925);
+    border-radius: 40px;
+    color: #027333;
+    width: 42%;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textos .titulo h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #14140F;
+    margin-bottom: 6px;
+}
+
+.textos .sinopse h3{
+    margin-bottom: 20px;
+    color: #7e7e7e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.final .box-final{
+    background-color: #fff;
+    border-radius: 0px 0px 18px 18px;
+    margin-top: 1px;
+    height: 60px;
+}
+
+.final .box-final .btn-assistir{
+    text-align: center;
+}
+
+.final .box-final button{
+    display: inline-block;
+    background-color: #93D94E;
+    border: 1px solid #027333;
+    border-radius: 10px;
+    padding: 5px;
+    height: 35px;
+    width: 34%;
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.final .box-final button i{
+    color: #027333;
+    font-weight: 400;
+}
+
+.final .box-final button:hover i{
+    color: #14140F;
+}
+
+.final .box-final button:hover{
+    background: none;
+    border-color: #14140F;
+}
