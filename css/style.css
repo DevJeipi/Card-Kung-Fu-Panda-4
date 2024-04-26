@@ -108,4 +108,5 @@ section.textos{
 .final .box-final button:hover{
     background: none;
     border-color: #14140F;
+    transition: 0.3s;
 }
